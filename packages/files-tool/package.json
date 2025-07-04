@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "file upload download tools",
   "author": "qiaer <1708546524@139.com>",
-  "homepage": "",
+  "homepage": "https://github.com/qiaer/plugin-packages/tree/master/packages/files-tool",
   "license": "ISC",
   "main": "./dist/index.es.js",
   "module": "./dist/index.es.js",
@@ -49,5 +49,6 @@
   },
   "peerDependencies": {
     "vite": ">=4.0.0"
-  }
+  },
+  "gitHead": "5916c41fe87956309bc9884343241f691f235327"
 }

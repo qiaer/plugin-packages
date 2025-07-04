@@ -5,8 +5,16 @@
   "main": "index.js",
   "scripts": {},
   "keywords": [],
-  "author": "",
+  "author": "qiaer <1708546524@139.com>",
   "license": "ISC",
+  "homepage": "https://github.com/qiaer/plugin-packages",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiaer/plugin-packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qiaer/plugin-packages/issues"
+  },
   "devDependencies": {
     "lerna": "^6.6.2"
   }
