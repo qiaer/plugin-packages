@@ -1,0 +1,13 @@
+{
+  "name": "plugin-packages",
+  "version": "0.1.0",
+  "description": "插件",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  }
+}

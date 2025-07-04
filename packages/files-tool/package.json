@@ -1,0 +1,53 @@
+{
+  "name": "files-tool",
+  "version": "0.0.1",
+  "description": "file upload download tools",
+  "author": "qiaer <1708546524@139.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "./dist/index.es.js",
+  "module": "./dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./vite-plugin-stream-saver": {
+      "import": "./dist/vite-plugin-stream-saver.es.js",
+      "require": "./dist/vite-plugin-stream-saver.cjs.js"
+    }
+  },
+  "keywords": [
+    "file",
+    "tools",
+    "chunk-upload",
+    "chunk-download",
+    "indexedDB",
+    "service-worker"
+  ],
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "serve": "vite preview",
+    "build": "vite build",
+    "test": "node ./__tests__/files-tool.test.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "plupload": "^2.3.9",
+    "streamsaver": "^2.0.6",
+    "web-streams-polyfill": "^4.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  },
+  "peerDependencies": {
+    "vite": ">=4.0.0"
+  }
+}

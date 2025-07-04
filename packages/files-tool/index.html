@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div >
+    <input type="file" onchange="selectFile(event)">
+    <button id="browse_button" >绑定按钮</button>
+    <button id="stop_button" onclick="stopUpload()">停止上传</button>
+    <button id="start_button" onclick="resumeUpload()">继续上传</button>
+    <button id="destroy_button" onclick="destroyUpload()">销毁上传</button>
+  </div>
+  <div style="margin-top: 20px;">
+    <input type="file" onchange="selectFile1(event)">
+    <button onclick="stopUpload1()">停止上传</button>
+    <button  onclick="resumeUpload1()">继续上传</button>
+    <button  onclick="destroyUpload1()">销毁上传</button>
+  </div>
+  <div style="margin-top: 20px;">
+    <button onclick="downloadFile()">
+      下载
+    </button>
+    <button onclick="pauseDownload()">
+      暂停
+    </button>
+    <button  onclick="resumeDownload()">
+      继续
+    </button>
+    <button  onclick="stopDownload()">
+      终止
+    </button>
+  </div>
+  <script type="module" src="./__tests__/files-tool.test.js"></script>
+</body>
+
+</html>

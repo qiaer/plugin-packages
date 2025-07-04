@@ -1,0 +1,12 @@
+{
+  "src/index.js": {
+    "file": "index.cjs.js",
+    "isEntry": true,
+    "src": "src/index.js"
+  },
+  "stream-saver/vite-plugin-stream-saver.js": {
+    "file": "vite-plugin-stream-saver.cjs.js",
+    "isEntry": true,
+    "src": "stream-saver/vite-plugin-stream-saver.js"
+  }
+}
