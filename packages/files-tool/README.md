@@ -3,6 +3,12 @@
 
 文件工具: 切片上传、切片下载、断点续传
 
+## 安装
+
+```javascript
+npm i files-tool
+```
+
 ## 上传
 
 ### 引入
@@ -197,3 +203,7 @@ import { getFileSize } from 'files-tool'
 ```javascript
 const { size } = await getFileSize('http://xxxxxx/api/download/123')
 ```
+
+## 致谢
+
+特别感谢 [plupload](https://www.plupload.com/) 和 [StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) 

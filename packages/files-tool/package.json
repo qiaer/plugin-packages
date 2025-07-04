@@ -18,8 +18,9 @@
     }
   },
   "keywords": [
-    "file",
-    "tools",
+    "plupload",
+    "streamsaver",
+    "files",
     "chunk-upload",
     "chunk-download",
     "indexedDB",
